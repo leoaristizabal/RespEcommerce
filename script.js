@@ -2,6 +2,7 @@ const bar = document.getElementById('bar');
 const nav = document.getElementById('navbar');
 const close = document.getElementById('close')
 
+//open and close navbar hamb menu
 if (bar) {
     bar.addEventListener('click', ()=> {
         nav.classList.add('active');
